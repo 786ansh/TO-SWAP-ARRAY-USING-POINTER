@@ -1,0 +1,107 @@
+Q1  wap to read and print element of array?                      
+ 
+                                                                     
+int i=10;
+    int a[i];
+    for(i=0;i<10;i++)
+    {
+        scanf("%d",&a[i]);
+        
+    }
+    for(i=0;i<10;i++)
+    {
+        printf("%d\n",a[i]);
+    }
+Q2 wap to print all negative no. in array and also print count?
+
+int n,i,count=0;
+printf("enter the number");
+scanf("%d",&n);
+int arr[i];
+printf("enter value in array");
+for(i=0;i<n;i++)
+{
+    
+    scanf("%d",&arr[i]);
+    if(arr[i]<0)
+    {
+        count=count+1;
+    }
+}
+printf("%d",count);
+
+}
+Q3 wap to print sum of array element?
+
+ int i=5,sum=0;
+   int a[i];
+   for(i=0;i<5;i++)
+   {
+       scanf("%d",&a[i]);
+      sum=sum+a[i];
+       
+   }
+   printf("%d",sum);
+Q4 wap to program to print count of even and odd number?
+
+int i=5,count=0,codd=0;
+  int a[i];
+  for(i=0;i<5;i++)
+  {
+      scanf("%d",&a[i]);
+      if(a[i]%2==0)
+      {
+          count=count+1;
+      }
+      else
+      codd=codd+1;
+  }
+  printf("%d\n",count);
+  printf("%d",codd);\
+
+
+Q5 wap to reverse a an array?
+int i=5;
+  int a[i];
+  for(i=0;i<5;i++)
+  {
+      scanf("%d",&a[i]);
+      
+  }
+  for(i=0;i<5;i++)
+   { 
+     printf("%d ",a[i]);
+     
+   }
+  for(i=4;i<=0;i--)
+  {
+      printf("%d ",a[i]);
+  }
+
+
+
+Q6 wap to copy all element from one array to another array?
+
+   int i,n;
+   scanf("%d",&n);
+   int arr1[i];
+   int arr2[i];
+   for(i=0;i<n;i++)
+   {
+       scanf("%d",&arr1[i]);
+       
+   }
+   for(i=0;i<n;i++)
+   {
+       printf("%d ",arr1[i]);
+       
+   }
+   for(i=0;i<n;i++)
+   {
+       arr2[i]=arr1[i];
+   }
+   for(i=0;i<n;i++)
+   {
+       printf("%d ",arr2[i]);
+
+   }
